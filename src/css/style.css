@@ -1,0 +1,147 @@
+:root{
+   /*--font-family1:*/ 
+    --bg-color1: #1E1E20;
+    --bg-color2:#3B3D39;
+    --font-color1: #95D735;
+    --font-color2:#fff;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+header{
+    width: 100%;
+    min-height: 70px;  
+    background: var(--bg-color2);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px ;
+
+}
+nav ul li a{
+    color: var(--font-color1);
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+#sobre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around; /*verificar apos colocar a foto*/
+    align-items: center;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+    
+}
+#sobre_texto{
+    width: 400px;
+    height: 320px;
+    text-align: justify;
+}
+
+#projetos{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-direction: column;
+    padding: 20px;
+}
+.projetos-container{
+    display: flex;
+    gap:135px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.projetos-container p{
+    text-align: center;
+}
+.img-projetos{
+    width: 200px;
+    
+}
+
+#habilidades{
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+#habilidades h2{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap:40px;
+  
+}
+.skills{
+    width: 130px;
+    height: 130px;
+    background: var(--bg-color2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-skills{
+    width: 70px;
+    height: 70px;
+    
+}
+
+#contato{
+    width: 100%;
+    min-height: 50vh;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.contatos-container{
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.contatos{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--bg-color2);
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background: #95D735;
+}
